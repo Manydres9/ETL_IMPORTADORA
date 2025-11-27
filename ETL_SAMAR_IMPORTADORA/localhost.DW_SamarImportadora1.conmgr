@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="localhost.DW_SamarImportadora1"
-  DTS:DTSID="{3EDAC987-DC23-4C5A-9CD2-CA7B982C4100}"
+  DTS:DTSID="{97912BE2-E61D-43AE-BF88-5AD8D1F9898D}"
   DTS:CreationName="OLEDB">
   <DTS:ObjectData>
     <DTS:ConnectionManager

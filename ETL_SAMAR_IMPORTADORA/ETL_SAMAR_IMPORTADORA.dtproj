@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-PUIABEJ</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMQdWaiTMI0uVC66ovNwJzAAAAAACAAAAAAAQZgAAAAEAACAAAACSJaE2M68Y7cwIKpMyynzFidwHXSlcfP7ex5/miU7ZiwAAAAAOgAAAAAIAACAAAAB9NK6KnCSBEvO8YJZNPYJIhXCPUgtInaJWY7BL8qU3ApAAAACBPuJel+krnjxsj71urRlAqb92GFXPqMDHgGMYx20IT0lqSVKF7wJyfiyLV9uBhfKVhjmyzo4NigoafXTbPBcMr+AeuUQeiNQPDY35475CObxMjfcxV79oDqY+heGNyvCmf4KUAhsdctL5db0mUaPRUiMglC0ODMw+Rd4PhTcWjGWLwRo4rVLQV+57Y+NctxFAAAAAeCRqyMMeuLLn5CK0I52qHF7yFa52lIxHjhrr+IInDfaCCJ52lWOadYXb2AFpU2J8xEyoJTDCosW/KygtgklEXg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA/Ez9WoYMUECkfINrM8DqzQAAAAACAAAAAAAQZgAAAAEAACAAAACOBCOoR0NeP7BSsthNpOkaPugr5Jtk0e/MuzT4wxSlOwAAAAAOgAAAAAIAACAAAAD9HDML76rAvmNlUwqQBctKaPJDNZWV5uMottRZSS5ZXpAAAAD58zuXkbEnbZNasFA9jjAhhkzA5jm0Elcc7nRIeOwHrg2lyQ09q2fMYKqmO5gY3fZgyOgaoAVKzM3O+cpDj0yB0HRwxc7dddidv8WkJB3A48TiEBO+kNgyN0XvSRC6cV5W07eCTSsWeTmxcqb4y9Lv1cnWjenF9eQHva4q1760p471+eY4F4y6Hh0v6WEa7NdAAAAAQzvSjIQT/mDCCcX1iSPin4u4EzQ103XsccpptlFz8zEdAXoEmIj15cDZ8dXR2/GXvvzX3uJj6QAWwL71fQ7jzA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -65,7 +65,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=SamarImportadora;Integrated Security=True;Application Name=SSIS-ETL_SAMAR_IMPORTADORA-{8209633E-583F-4100-9634-7506AE9745CB}localhost.SamarImportadora;</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=SamarImportadora;Integrated Security=True;Application Name=SSIS-ETL_SAMAR_IMPORTADORA-{59ACEF23-5453-4664-8250-68002A12AFFA}localhost.SamarImportadora;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -183,7 +183,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=DW_SamarImportadora;Integrated Security=True;Application Name=SSIS-ETL_SAMAR_IMPORTADORA-{F4677FE2-0299-454D-B302-9DBFE56F0179}localhost.DW_SamarImportadora;</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=DW_SamarImportadora;Integrated Security=True;Application Name=SSIS-ETL_SAMAR_IMPORTADORA-{70A1E563-CC60-41FD-BC4B-18B65C51ED51}localhost.DW_SamarImportadora;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -431,10 +431,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">10</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{8A94CBF2-DF99-4657-A8DA-BA62C9DE9403}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{58F94E5C-AE82-429D-9943-6E218E36EDF1}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
