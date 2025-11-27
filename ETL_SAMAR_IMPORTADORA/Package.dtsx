@@ -11,8 +11,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{8A94CBF2-DF99-4657-A8DA-BA62C9DE9403}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{B5581CCD-C2D5-4F17-B929-0F36ED5D6C9D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -1469,6 +1469,21 @@ FROM            DIM_PRODUCTO</property>
         </pipeline>
       </DTS:ObjectData>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Tarea Ejecutar SQL"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{E008A7CF-FAEB-4F46-8E0F-214CB8497021}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Tarea Ejecutar SQL"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022 CTP2.0; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
   </DTS:Executables>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -1485,7 +1500,11 @@ FROM            DIM_PRODUCTO</property>
         <NodeLayout
           Size="159,42"
           Id="Package\DIM_PRODUCTO"
-          TopLeft="109,61" />
+          TopLeft="167,84" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Tarea Ejecutar SQL"
+          TopLeft="166,216" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -1744,7 +1763,7 @@ FROM            DIM_PRODUCTO</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\DIM_PRODUCTO\LEER_ORIGEN_DW">
+    design-time-name="Package\DIM_PRODUCTO\Destino de ADO NET">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -1752,7 +1771,7 @@ FROM            DIM_PRODUCTO</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\DIM_PRODUCTO\Destino de ADO NET">
+    design-time-name="Package\DIM_PRODUCTO\LEER_ORIGEN_DW">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
