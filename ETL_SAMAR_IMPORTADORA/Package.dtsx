@@ -11,8 +11,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{B5581CCD-C2D5-4F17-B929-0F36ED5D6C9D}">
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{82A59421-30F0-4BA3-93DF-977B9B233760}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -1470,6 +1470,21 @@ FROM            DIM_PRODUCTO</property>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\DIM_SUCURSAL"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{CA0589C0-AFBA-4BD4-A232-A884A570E0F1}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="DIM_SUCURSAL"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Tarea Ejecutar SQL"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarea Ejecutar SQL"
@@ -1500,11 +1515,15 @@ FROM            DIM_PRODUCTO</property>
         <NodeLayout
           Size="159,42"
           Id="Package\DIM_PRODUCTO"
-          TopLeft="167,84" />
+          TopLeft="181,89" />
         <NodeLayout
           Size="170,42"
           Id="Package\Tarea Ejecutar SQL"
-          TopLeft="166,216" />
+          TopLeft="186,219" />
+        <NodeLayout
+          Size="155,42"
+          Id="Package\DIM_SUCURSAL"
+          TopLeft="216,328" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
