@@ -11,8 +11,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{C2A9AFCE-365E-4D79-ACB3-6CDD6E43D321}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{2873BFDB-7994-4039-ABD0-617FD7948C12}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -1561,6 +1561,21 @@ FROM            DIM_PRODUCTO</property>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\ijo la perra"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tarea Flujo de datos"
+      DTS:DTSID="{C1B8370D-BD89-4C9C-9BC4-AA98095CC1E4}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="ijo la perra"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Tarea Ejecutar SQL"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarea Ejecutar SQL"
@@ -1593,13 +1608,17 @@ FROM            DIM_PRODUCTO</property>
           Id="Package\DIM_PRODUCTO"
           TopLeft="181,89" />
         <NodeLayout
+          Size="155,42"
+          Id="Package\DIM_SUCURSAL"
+          TopLeft="198,330" />
+        <NodeLayout
           Size="170,42"
           Id="Package\Tarea Ejecutar SQL"
           TopLeft="186,219" />
         <NodeLayout
-          Size="155,42"
-          Id="Package\DIM_SUCURSAL"
-          TopLeft="198,330" />
+          Size="130,42"
+          Id="Package\ijo la perra"
+          TopLeft="126,287" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -1881,7 +1900,7 @@ FROM            DIM_PRODUCTO</property>
         <NodeLayout
           Size="172,42"
           Id="Package\DIM_SUCURSAL\Origen de ADO NET"
-          TopLeft="221,299" />
+          TopLeft="39,98" />
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
